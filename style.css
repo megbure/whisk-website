@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #FAF6EF;
+    color: #4A3728;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(
+        rgba(255, 248, 235, 0.9),
+        rgba(255, 248, 235, 0.95)
+    ),
+    url('https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #4A3728;
+}
+
+.hero .subtitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #7A5F44;
+}
+
+/* STORY */
+.story {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.story h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+/* COOKIE SECTION */
+.cookies {
+    padding: 60px 20px;
+    background-color: #FFFDF8;
+}
+
+.cookies h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+}
+
+.cookie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cookie-card {
+    background: #FFF9F1;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #E6D5BF;
+    box-shadow: 0 6px 12px rgba(180, 150, 110, 0.1);
+}
+
+.cookie-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* SOCIAL LINKS */
+.socials {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.socials h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.icons a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    color: #7A5F44;
+    text-decoration: none;
+    border-bottom: 1px solid #C9A77A;
+    padding-bottom: 3px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+.email {
+    font-size: 1.2rem;
+    color: #7A5F44;
+    text-decoration: none;
+    border-bottom: 1px solid #C9A77A;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #F4ECE2;
+    font-size: 0.9rem;
+    color: #6D5948;
+}
